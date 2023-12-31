@@ -1,0 +1,20 @@
+baseurl = "https://www.planet-community.org"
+languageCode = "en-gb"
+title = "The Planet Community Website"
+theme = "temple"
+copyright = "Copyright © (CC-BY-SA 4.0) Planet Community Org 2023-{year}"
+
+[params]
+  # Enables syntax highlighting
+  highlight = true 
+  hjslangs = ["go", "elixir", "clojure", "rust", "embedded"]
+  topmenu = "categories"
+
+# Builds a list page for each category given
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[author]
+  name = "The Planet Community"
+  github = "planet-community-org"
